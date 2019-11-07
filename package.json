@@ -1,0 +1,24 @@
+{
+  "name": "bwt901cl-bridge",
+  "version": "1.0.0",
+  "description": "bluetooth serial to spacebrew bridge for the wit motion bwt901cl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinkennedy/bwt901cl-bridge.git"
+  },
+  "author": "Quin Kennedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinkennedy/bwt901cl-bridge/issues"
+  },
+  "homepage": "https://github.com/quinkennedy/bwt901cl-bridge#readme",
+  "dependencies": {
+    "@spacebrew/client": "github:spacebrew/node-spacebrew-client#numberSupport",
+    "serialport": "^8.0.5"
+  }
+}
